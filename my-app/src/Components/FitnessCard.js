@@ -13,7 +13,7 @@ import {cardData} from "../Data/card-data"
 
 
 
-class TestimonialCard extends React.Component {
+class FitnessCard extends React.Component {
   render () {
     const mappingFunction = x => <h1>{x.title}</h1>;
   return (
@@ -45,4 +45,4 @@ class TestimonialCard extends React.Component {
   );
 };
 }
-export default TestimonialCard;
+export default FitnessCard;
