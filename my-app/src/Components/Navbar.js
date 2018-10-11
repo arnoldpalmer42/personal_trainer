@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import {
   Collapse,
   Navbar,
@@ -10,8 +10,7 @@ import {
   UncontrolledDropdown,
   DropdownToggle,
   DropdownMenu,
-  DropdownItem
-} from "reactstrap";
+  DropdownItem } from 'reactstrap';
 
 export default class Example extends React.Component {
   constructor(props) {
@@ -31,7 +30,7 @@ export default class Example extends React.Component {
     return (
       <div>
         <Navbar light expand="md">
-          <NavbarBrand href="/">Kat</NavbarBrand>
+          <NavbarBrand href="/">Kat Training</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
@@ -39,14 +38,10 @@ export default class Example extends React.Component {
                 <NavLink href="/components/">Facebook</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://github.com/reactstrap/reactstrap">
-                  Twitter
-                </NavLink>
+                <NavLink href="https://github.com/reactstrap/reactstrap">Twitter</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://github.com/reactstrap/reactstrap">
-                  Instagram
-                </NavLink>
+                <NavLink href="https://github.com/reactstrap/reactstrap">Instagram</NavLink>
               </NavItem>
             </Nav>
           </Collapse>
