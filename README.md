@@ -1,2 +1,2 @@
 # personal_trainer
-Built with React, ReactStrap
+Built with React, ReactStrap buddy
