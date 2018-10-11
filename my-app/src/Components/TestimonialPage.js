@@ -1,6 +1,6 @@
 import React from "react";
 import "../App.css";
-import FitnessCard from "./FitnessCard";
+import TestimonialCard from "./TestimonailCard";
 
 
 
@@ -12,7 +12,7 @@ render() {
         <h1 className="testi-header">Our Customer Story</h1>
       </div>
         <div>
-        <FitnessCard />
+        <TestimonialCard />
         </div>
     </div>
   );
